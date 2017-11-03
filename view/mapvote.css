@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('font/BebasNeue-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham HTF Bold';
+    src: url('font/GothamHTF-Bold.otf');
+}
+@font-face {
+    font-family: 'Gotham HTF Book';
+    src: url('font/GothamHTF-Book.otf');
+}
+.container {
+  width: 1280px;
+  height: 720px;
+  position:absolute;
+  top:0;
+  left:0;
+
+}
+
+#team-names {
+  margin:auto;
+  width:400px;
+ font-family: 'Gotham HTF Bold';
+ font-size: 20px;
+ margin-bottom: 10px;
+ color:white;
+  text-transform: uppercase;
+
+}
+#blu{
+  display:inline;
+ 
+
+}
+#red {
+  float:right;
+}
+#mapvote {
+  margin:auto;
+  width: 400px;
+  padding-left: 50px;
+  padding-right:50px;
+  margin-top: 50px;
+  padding-top: 40px;
+background: rgba(0, 0, 0, 0.5); 
+visibility:hidden;
+
+  }
+#red, #blu {
+  visibility:hidden;
+}
+#m1, #m2, #m3, #m4, #m5, #m6, #m7, #m8 {
+  opacity: 0;
+}
+.map {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-image: url('img/bg.png');
+  text-align:center;
+  line-height: 50px;
+color:white;
+font-size: 15px;
+ font-family: 'Gotham HTF Book';
+ text-transform: uppercase;
+ 
+ }
+.left {
+width: 100px;
+display:inline-block;
+float:left;
+height: 50px;
+ font-family: 'Bebas Neue Bold';
+  font-size: 25px;
+
+}
+.right {
+width:100px;
+display:inline-block;
+float:right;
+height: 50px;
+ font-family: 'Bebas Neue Bold';
+  font-size: 25px;
+
+}
+.mapname {
+  width:200px !important;
+  display:inline-block;
+height: 50px;
+
+}
+#logo {
+  text-align:center;
+  position:relative;
+  top: -30px;
+}
+#sub-logo {
+  text-align:center;
+  position:relative;
+  top: -30px;
+   font-family: 'Bebas Neue Bold';
+   color:#4799dc;
+   letter-spacing: 1px;
+}
+.badlands, .cp_badlands {
+ background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+	  url('img/cp_badlands2.png');
+}
+.granary, .cp_granary, .cp_granary_pro_b10
+ {
+ background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+ url('img/cp_granary.png');
+}
+.cp_gullywash_final1, .cp_gullywash, .gullywash {
+ background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+ url('img/gullywash.png');
+}
+.cp_process_final, .cp_process, .process {
+ background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+ url('img/process.png');
+}
+.cp_snakewater_final1, .cp_snakewater, .snakewater{
+ background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+ url('img/snakewater.png');
+}
+.koth_product_rc8, .koth_product, .product, .viaduct {
+ background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+ url('img/product.png');
+}
+.gravelpit, .cp_gravelpit, .cp_gravelpit_final{
+ background-image:linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+ url('img/gravelpit.png');
+}

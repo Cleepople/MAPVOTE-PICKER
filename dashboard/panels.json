@@ -1,0 +1,10 @@
+[
+{
+	"name": "tf-mapvote",
+	"title": "PICK/BAN Mapvote", 
+	"width": 3,
+	"file": "panel.jade",
+	"faIcon": "fa-gg-circle"
+
+}
+]

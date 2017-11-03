@@ -1,0 +1,16 @@
+{
+"name": "tf-mapvote",
+  
+  "dependencies": {
+        "jquery": "^2.1.0",
+        "ionsound": "^1.3.0",
+        "gsap": "^1.12.0",
+        "textfit": "^2.1.1"  
+  },
+  "homepage": "https://github.com/erynnb/tf-mapvote",
+  "authors": [
+    "erynn"
+  ],
+  "description": "Pick/Ban system for tf2",
+  "license": "MIT"
+}
